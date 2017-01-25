@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>BLEEP | REGISTRATION</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+
+    <div id="page-wrapper">
+
+        <header id="header">
+            <h1><a href="index.html">BLEEP</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li class="special">
+                        <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                        <div id="menu">
+                            <ul>
+                                <li><a href="index.html">Registration</a></li>
+                                <li><a href="index2.html">About the Creator</a></li>
+                                <li><a href="elements.html">Elements</a></li>
+                                <li><a href="Schedules.html">Schedules</a></li>
+                                <li><a href="Register.html">Sign Up</a></li>
+                                <li><a href="#">Log In</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <article id="main">
+            <header>
+                <h2>Registration</h2>
+                <p>Be a part of our project now!</p>
+            </header>
+            <section class="wrapper style5">
+                <div class="inner">
+
+                    <h3>Please fill out this form:</h3>
+                    <div class="form-group">
+                        <form id="formreq" method="post">
+
+                            <label>FirstName:</label>
+                            <input type="text" class="form-control" id="fname" name="Firstname" required="required" />
+
+
+                            <label>LastName:</label>
+                            <input type="text" class="form-control" id="lname" required />
+
+                            <label>MiddleName:</label>
+                            <input type="text" class="form-control" id="mname" required />
+
+                            <label>Card Type:</label>
+                            <select class="form-control" required id="cardtype">
+                                <option>Visa</option>
+                                <option>Mastercard</option>
+                                <option>American Express</option>
+                            </select>
+
+
+                            <label>Card Number:</label>
+                            <input type="number" class="form-control" min="0" maxlength="16" id="cardnumber" required />
+
+
+                            <label>Security Number:</label>
+                            <input type="number" value="" class="form-control" min="0" max="999" maxlength="3" id="secnumber" required />
+
+                            <label>Contact No.:</label>
+                            <input type="number" class="form-control" min="0" maxlength="11" id="contact" required />
+
+                            <label>Destination From:</label>
+                            <select id="desfrom" class="form-control" required>
+                                <option>Baclaran</option>
+                                <option>EDSA</option>
+                                <option>Libertad</option>
+                                <option>Gil Puyat</option>
+                                <option>Vito Cruz</option>
+                                <option>Quirino Avenue</option>
+                                <option>Pedro Gil</option>
+                                <option>United Nations</option>
+                                <option>Central Terminal</option>
+                                <option>Carriedo</option>
+                                <option>Doroteo Jose</option>
+                                <option>Bambang</option>
+                                <option>Tayuman</option>
+                                <option>Blumentritt</option>
+                                <option>Abad Santos</option>
+                                <option>R.Papa</option>
+                                <option>5th Avenue</option>
+                                <option>Monumento</option>
+                                <option>Balintawak</option>
+                                <option>Roosevelt</option>
+                            </select>
+
+                            <label>Destination To:</label>
+                            <select id="destto" class="form-control" required>
+                                <option>Baclaran</option>
+                                <option>EDSA</option>
+                                <option>Libertad</option>
+                                <option>Gil Puyat</option>
+                                <option>Vito Cruz</option>
+                                <option>Quirino</option>
+                                <option>Pedro Gil</option>
+                                <option>United Nations</option>
+                                <option>Central Terminal</option>
+                                <option>Carriedo</option>
+                                <option>Doroteo Jose</option>
+                                <option>Bambang</option>
+                                <option>Tayuman</option>
+                                <option>Blumentritt</option>
+                                <option>Abad Santos</option>
+                                <option>R.Papa</option>
+                                <option>5th Avenue</option>
+                                <option>Monumento</option>
+                                <option>Balintawak</option>
+                                <option>Roosevelt</option>
+                            </select>
+
+                            <br />
+                            <br />
+                            <button type="button" class="btn special" onclick="generateDetails();">
+                                Register
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <footer id="footer">
+            <ul class="icons">
+                <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                <li><a href="#" class="icon fa-chrome"><span class="label">Google</span></a></li>
+                <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>Copyright &copy;  2016 BLEEP</li>
+                <li>Designed by: <a href="#">Team Mari-ara</a></li>
+            </ul>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>

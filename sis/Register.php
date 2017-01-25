@@ -35,10 +35,11 @@
                         <a href="#menu" class="menuToggle"><span>Menu</span></a>
                         <div id="menu">
                             <ul>
-                                <li><a href="index.html">Registration</a></li>
-                                <li><a href="index2.html">About the Creator</a></li>
+                                <li><a href="Register.php">Registration Form</a></li>
+                                <li><a href="https://www.facebook.com/yaaattz">Contact Me</a></li>
+                                <li><a href="welcome.php">Your Account</a></li>
                                
-                                <li><a href="#">Log In</a></li>
+                              
                             </ul>
                         </div>
                     </li>
@@ -154,7 +155,7 @@
                 <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
             </ul>
             <ul class="copyright">
-                <li>Copyright &copy;  2017 Excerscie No.2</li>
+                <li>Copyright &copy;  2017 EXERCISE NO.2</li>
                 <li>Designed by: <a href="#">Anthon Vincci Siegfred A. Ang</a></li>
             </ul>
         </footer>
